@@ -1,2 +1,12 @@
-package com.guntur.weather;public class WeatherUpdateReceiver {
+package com.guntur.weather;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class WeatherUpdateReceiver extends BroadcastReceiver {
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+    }
 }

@@ -24,5 +24,13 @@
             </intent-filter>
         </activity>
     </application>
+    <receiver
+        android:name=".WeatherUpdateReceiver"
+        android:enabled="true"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="com.guntur.weather.WeatherUpdateReceiver" />
+        </intent-filter>
+    </receiver>
 
 </manifest>
