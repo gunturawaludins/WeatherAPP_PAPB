@@ -4,9 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BG_WALL_ANDRO"> <!-- Menggunakan file gambar BG_WALL_ANDRO sebagai background -->
+    android:background="@drawable/BG_WALL_ANDRO">
 
-    <!-- Contoh hiasan berupa garis pembatas -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +14,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
+
 
         <TextView
             android:id="@+id/textTitle"
@@ -63,14 +63,14 @@
             android:layout_marginTop="16dp"
             android:text="LOGIN"
             android:textColor="#FFFFFF"
-            android:background="@drawable/button_bg"/> <!-- Warna teks putih dan menggunakan background button -->
+            android:background="@drawable/button_bg"/>
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@id/btnLogin" <!-- Posisi garis setelah tombol LOGIN -->
+        android:layout_below="@id/btnLogin"
     android:layout_marginTop="16dp"
-    android:background="#FFFFFF"/> <!-- Warna garis putih -->
+    android:background="#FFFFFF"/>
 </RelativeLayout>
