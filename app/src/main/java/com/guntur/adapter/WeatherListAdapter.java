@@ -1,4 +1,4 @@
-package com.azhar.guntur.adapter;
+package com.guntur.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

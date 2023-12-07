@@ -1,4 +1,4 @@
-package com.azhar.guntur.activities;
+package com.guntur.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
